@@ -1,18 +1,17 @@
 # Predicting-Stock-Movement-with-NLP-and-Twitter
 Create sentiment analysis scores using NLP on tweets related to stocks to predict a stock’s 1 day return
 
-Using Natural Language Processing and Twitter to Predict Stocks
 Kyle Johnson
 
 Flatiron School Final Project
 
-Objective:
+## Objective:
 The precise objective of this project is to predict a stock's price movement from the open to the close of the current trading day based only on tweets from the previous close of trading until the opening bell of the current day. I chose this set up in order to have a clearly defined predictor (overnight Twitter sentiment) and target (intra-day stock price movement). I do not include any tweets from the previous day's market hours because Efficient Market Hypothesis dictates that those sentiments would be priced into the previous day's stock price. I also do not include any overnight stock price movement because that would be using the future to predict the future. For example, if a stock rises during after-hours trading and then the next morning there is positive Twitter sentiment about that stock, then the target would be determining the predictor which leads to a completely useless result.
 
 This project breaks down into two parts. Part 1 uses a database of tweets from 2016 and part 2 uses current tweets gathered from Twitter's API. Please follow along with these notebooks that detail this process:
 
-Part 1 - Archived Tweets
-Notebook 1 - Data Gathering of Archived Tweets
+# Part 1 - Archived Tweets
+## Notebook 1 - Data Gathering of Archived Tweets
 In this notebook I source tweets about the stocks in the NASDAQ 100 Index for a period of 90 days in mid 2016.
 
 Notebook 2 - Archived Tweet Analysis
