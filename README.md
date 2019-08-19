@@ -32,12 +32,19 @@ In this notebook I perform the same analysis on live tweets as was performed on 
 
 # Conclusions:
 -Both TextBlob and Vader sentiment analysers show the ability to give useful insight into stock movement.
+
 -Using sentiment analysis on trades with a high tweet volume relative to each stock's average is a consistently effective strategy.
+
 -Forming sentiment scores using only tweeters with high recent accuracy is an effective strategy.
+
 -The data used for this project has two main limitations that would need to be addressed before deploying these strategies into the live capital markets.
+
   -Majority of data is significantly out of date.
+  
   -Recent data is of very limited scope.
 # Further Exploration:
 -Acquire a paid Twitter Developer subscription in order to gather much more recent data.
+
 -Explore other sentiment engines such as Google's to find the best performing one.
+
 -Create a "voting" system that consideres sentiment scores of several different algorithms into a single score.
