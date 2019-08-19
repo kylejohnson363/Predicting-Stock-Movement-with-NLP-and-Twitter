@@ -39,9 +39,9 @@ In this notebook I perform the same analysis on live tweets as was performed on 
 
 -The data used for this project has two main limitations that would need to be addressed before deploying these strategies into the live capital markets.
 
-  -Majority of data is significantly out of date.
+    -Majority of data is significantly out of date.
   
-  -Recent data is of very limited scope.
+    -Recent data is of very limited scope.
 # Further Exploration:
 -Acquire a paid Twitter Developer subscription in order to gather much more recent data.
 
