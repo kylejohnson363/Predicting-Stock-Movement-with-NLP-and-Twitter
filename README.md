@@ -29,6 +29,7 @@ The chart below shows the real world results of trading based on the sentiment f
 ![Results](https://github.com/kylejohnson363/Predicting-Stock-Movement-with-NLP-and-Twitter/blob/master/Trading%20Results.JPG)
 
 ### Isolating tweets from Twitter users who have predicted well in the past can lead to more profitable trades
+Here I scored each Twitter user based on their previous twitter activity's predictiveness and isolated tweets from "high value tweeters" when forming predictions.  Clearly there is potential value in heeding the advice of the best tweeters.
 
 ![Best_Tweeters](https://github.com/kylejohnson363/Predicting-Stock-Movement-with-NLP-and-Twitter/blob/master/Best%20Tweeters.JPG)
 
