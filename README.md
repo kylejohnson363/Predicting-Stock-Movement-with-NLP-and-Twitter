@@ -20,8 +20,11 @@ An important thing to note is that only tweets from when the market was closed w
 # Findings
 
 ### Abnormally high Tweet volume led to more profitable trades
+The chart below shows that as a stock's tweet volume increases above its average, more opinions are represented and the predictions produce better returns; which makes sense on an intuitive level
 
 ![High_volume](https://github.com/kylejohnson363/Predicting-Stock-Movement-with-NLP-and-Twitter/blob/master/High%20Tweet%20Volume.JPG)
+
+The chart below shows the real world results of trading based on the sentiment from high volume tweet days on unseen data.  The use of the Vader sentiment engine clearly outperforms the market as well as out performing the simple strategy of buying all trades with abnormally high tweet volume.
 
 ![Results](https://github.com/kylejohnson363/Predicting-Stock-Movement-with-NLP-and-Twitter/blob/master/Trading%20Results.JPG)
 
