@@ -23,6 +23,8 @@ An important thing to note is that only tweets from when the market was closed w
 
 ![High_volume](https://github.com/kylejohnson363/Predicting-Stock-Movement-with-NLP-and-Twitter/blob/master/High%20Tweet%20Volume.JPG)
 
+![Results](https://github.com/kylejohnson363/Predicting-Stock-Movement-with-NLP-and-Twitter/blob/master/Trading%20Results.JPG)
+
 ### Isolating tweets from Twitter users who have predicted well in the past can lead to more profitable trades
 
 ![Best_Tweeters](https://github.com/kylejohnson363/Predicting-Stock-Movement-with-NLP-and-Twitter/blob/master/Best%20Tweeters.JPG)
@@ -36,9 +38,9 @@ An important thing to note is that only tweets from when the market was closed w
 
 -The data used for this project has two main limitations that would need to be addressed before deploying these strategies into the live capital markets.
 
-    -Majority of data is significantly out of date.
+   1) Majority of data is significantly out of date.
   
-    -Recent data is of very limited scope due to limitations on the use of the free version of the Twitter API connection.
+   2) Recent data is of very limited scope due to limitations on the use of the free version of the Twitter API connection.
 # Further Exploration:
 -Acquire a paid Twitter Developer subscription in order to gather much more recent data.
 
