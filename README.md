@@ -11,19 +11,21 @@ Please see the notebook titled "Summary_Start_Here" for a detailed road map thro
 ### Process Overview
 The Twitter data for this project was gathered from an online database along with using the Twitter API.  The tweets were then given a sentiment score using the TextBlob and Vader NLP algorithms and used to make predictions about the given stock.  The stock price data was gathered using the Yahoo Finance API. 
 
-
+![Diagram](https://github.com/kylejohnson363/Predicting-Stock-Movement-with-NLP-and-Twitter/blob/master/Diagram.JPG)
 
 An important thing to note is that only tweets from when the market was closed were used and only stock movement from when the market was open was used. I chose this set up in order to have a clearly defined predictor (overnight Twitter sentiment) and target (intra-day stock price movement). I do not include any tweets from the previous day's market hours because Efficient Market Hypothesis dictates that those sentiments would be priced into the previous day's stock price. I also do not include any overnight stock price movement because that would be using the future to predict the future. For example, if a stock rises during after-hours trading and then the next morning there is positive Twitter sentiment about that stock, then the target would be determining the predictor which leads to a completely useless result.
+
+![Time_Sep](https://github.com/kylejohnson363/Predicting-Stock-Movement-with-NLP-and-Twitter/blob/master/Time%20Separation.JPG)
 
 # Findings
 
 ### Abnormally high Tweet volume led to more profitable trades
 
-
+![High_volume](https://github.com/kylejohnson363/Predicting-Stock-Movement-with-NLP-and-Twitter/blob/master/High%20Tweet%20Volume.JPG)
 
 ### Isolating tweets from Twitter users who have predicted well in the past can lead to more profitable trades
 
-
+![Best_Tweeters](https://github.com/kylejohnson363/Predicting-Stock-Movement-with-NLP-and-Twitter/blob/master/Best%20Tweeters.JPG)
 
 # Conclusions:
 -Both TextBlob and Vader sentiment analysers show the ability to give useful insight into stock movement.
