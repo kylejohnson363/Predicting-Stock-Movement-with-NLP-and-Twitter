@@ -3,32 +3,27 @@ Create sentiment analysis scores using NLP on tweets related to stocks to predic
 
 Kyle Johnson
 
-Flatiron School Final Project
+### Project Motivation
+The price of a financial asset can be seen as the sum of every market participant's sentiment about that asset.  With the advent of Twitter, we have the largest database of opinions ever seen in human history and in theory, being able to quantify those opinions should give insights into how the future will play out regarding the subject of those opinions.  This project uses Natural Language Processing to quantify the sentiment of tweets about a particular stock while the market is closed in order to predict what the stock will do when the market re-opens for trading.
 
-## Objective:
-The precise objective of this project is to predict a stock's price movement from the open to the close of the current trading day based only on tweets from the previous close of trading until the opening bell of the current day. I chose this set up in order to have a clearly defined predictor (overnight Twitter sentiment) and target (intra-day stock price movement). I do not include any tweets from the previous day's market hours because Efficient Market Hypothesis dictates that those sentiments would be priced into the previous day's stock price. I also do not include any overnight stock price movement because that would be using the future to predict the future. For example, if a stock rises during after-hours trading and then the next morning there is positive Twitter sentiment about that stock, then the target would be determining the predictor which leads to a completely useless result.
+Please see the notebook titled "Summary_Start_Here" for a detailed road map through this project in order fully understand the process.
 
-This project breaks down into two parts. Part 1 uses a database of tweets from 2016 and part 2 uses current tweets gathered from Twitter's API. Please follow along with these notebooks that detail this process:
+### Process Overview
+The Twitter data for this project was gathered from an online database along with using the Twitter API.  The tweets were then given a sentiment score using the TextBlob and Vader NLP algorithms and used to make predictions about the given stock.  The stock price data was gathered using the Yahoo Finance API. 
 
-# Part 1 - Archived Tweets
-### Notebook 1 - Data Gathering of Archived Tweets
-In this notebook I source tweets about the stocks in the NASDAQ 100 Index for a period of 90 days in mid 2016.
 
-### Notebook 2 - Archived Tweet Analysis
-In this notebook I use the data frames created in the previous notebook to determine the usefulness of using Natural Language Processing in the aim of predicting stock price movements.
 
-### Notebook 3 - Isolating the Best Tweeters
-In this notebook I give each tweeter (username) a score based on their sentiment's ability to accurately forcast stock price movement. I then isolate those tweeters with the highest scores and make new predictions
+An important thing to note is that only tweets from when the market was closed were used and only stock movement from when the market was open was used. I chose this set up in order to have a clearly defined predictor (overnight Twitter sentiment) and target (intra-day stock price movement). I do not include any tweets from the previous day's market hours because Efficient Market Hypothesis dictates that those sentiments would be priced into the previous day's stock price. I also do not include any overnight stock price movement because that would be using the future to predict the future. For example, if a stock rises during after-hours trading and then the next morning there is positive Twitter sentiment about that stock, then the target would be determining the predictor which leads to a completely useless result.
 
-# Part 2 - Live Tweets
-### Notebook 4 - Gathering Live Tweets
-In this notebook I use the Twitter API to gather tweets from the last two weeks until the current moment. Unfortunately the free version of Twitter's API only allows the gathering of 1 week's worth of data, however the code would be the same for a paid version that could gather more data.
+# Findings
 
-### Notebook 5 - Live Tweet Analysis
-In this notebook I perform the same analysis on live tweets as was performed on the archived tweets in Notebook 2.
+### Abnormally high Tweet volume led to more profitable trades
 
-### Notebook 6 - Isolating the Best Live Tweeters
-In this notebook I perform the same analysis on live tweets as was performed on the archived tweets in Notebook 3.
+
+
+### Isolating tweets from Twitter users who have predicted well in the past can lead to more profitable trades
+
+
 
 # Conclusions:
 -Both TextBlob and Vader sentiment analysers show the ability to give useful insight into stock movement.
@@ -41,7 +36,7 @@ In this notebook I perform the same analysis on live tweets as was performed on 
 
     -Majority of data is significantly out of date.
   
-    -Recent data is of very limited scope.
+    -Recent data is of very limited scope due to limitations on the use of the free version of the Twitter API connection.
 # Further Exploration:
 -Acquire a paid Twitter Developer subscription in order to gather much more recent data.
 
