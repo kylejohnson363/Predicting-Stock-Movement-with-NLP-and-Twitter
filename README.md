@@ -3,6 +3,8 @@ Create sentiment analysis scores using NLP on tweets related to stocks to predic
 
 Kyle Johnson
 
+Blog post:  https://kylejohnson363.github.io/challenging_edge_cases_in_nlp
+
 ### Project Motivation
 The price of a financial asset can be seen as the sum of every market participant's sentiment about that asset.  With the advent of Twitter, we have the largest database of opinions ever seen in human history and in theory, being able to quantify those opinions should give insights into how the future will play out regarding the subject of those opinions.  This project uses Natural Language Processing to quantify the sentiment of tweets about a particular stock while the market is closed in order to predict what the stock will do when the market re-opens for trading.
 
