@@ -52,6 +52,6 @@ Here I scored each Twitter user based on their previous twitter activity's predi
 
 -Explore other sentiment engines such as Google's to find the best performing one.
 
--Create a customized training data set that correctly lables trader lingo.
+-Create a customized training data set that correctly lables trader lingo and potentially use Google's AutoML to build the model.
 
 -Create a "voting" system that consideres sentiment scores of several different algorithms into a single score.
