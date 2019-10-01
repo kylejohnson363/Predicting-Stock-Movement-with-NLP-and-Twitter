@@ -22,7 +22,7 @@ An important thing to note is that only tweets from when the market was closed w
 # Findings
 
 ### Abnormally high Tweet volume led to more profitable trades
-The chart below shows that as a stock's tweet volume increases above its average, more opinions are represented and the predictions produce better returns; which makes sense on an intuitive level.
+The chart below shows that as a stock's tweet volume increases above its average, more opinions are represented and the predictions produce better returns; which makes sense on an intuitive level because presumably more of the opinions in the market are being quantified in the prediction.
 
 ![High_volume](https://github.com/kylejohnson363/Predicting-Stock-Movement-with-NLP-and-Twitter/blob/master/High%20Tweet%20Volume.JPG)
 
