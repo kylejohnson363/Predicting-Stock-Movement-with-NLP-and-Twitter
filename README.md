@@ -11,7 +11,7 @@ The price of a financial asset can be seen as the sum of every market participan
 Please see the notebook titled "Summary_Start_Here" for a detailed road map through this project in order fully understand the process.
 
 ### Process Overview
-The Twitter data for this project was gathered from an online database along with using the Twitter API.  The tweets were then given a sentiment score using the TextBlob and Vader NLP algorithms and used to make predictions about the given stock.  The stock price data was gathered using the Yahoo Finance API. 
+The Twitter data for this project was gathered from an online database along with using the live Twitter API.  The tweets were then given a sentiment score using the TextBlob and Vader NLP algorithms and used to make predictions about the given stock.  The stock price data was gathered using the Yahoo Finance API. 
 
 ![Diagram](https://github.com/kylejohnson363/Predicting-Stock-Movement-with-NLP-and-Twitter/blob/master/Diagram.JPG)
 
