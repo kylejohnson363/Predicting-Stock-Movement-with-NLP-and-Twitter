@@ -59,5 +59,3 @@ Here I scored each Twitter user based on their previous twitter activity's predi
 -Create a customized training data set that correctly lables trader lingo and potentially use Google's AutoML to build the model.
 
 -Create a "voting" system that consideres sentiment scores of several different algorithms into a single score.
-
-- I am currently working on making a production version of this concept
