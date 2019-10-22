@@ -5,7 +5,7 @@ Kyle Johnson
 
 Daily model outputs can be found at https://twitter.com/kylejohnson1678
 
-** TWEETS ARE NOT INVESTMENT ADVICE! DO NOT TRADE BASED ON THESE RECOMMENDATIONS! The model is a proof of concept and has not been optimized for live trading. These tweets are merely to show end to end functionality of the model.
+*** TWEETS ARE NOT INVESTMENT ADVICE! DO NOT TRADE BASED ON THESE RECOMMENDATIONS! The model is a proof of concept and has not been optimized for live trading. These tweets are merely to show end to end functionality of the model. ***
 
 Blog post:  https://kylejohnson363.github.io/challenging_edge_cases_in_nlp
 
