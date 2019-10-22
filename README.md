@@ -3,7 +3,7 @@ Create sentiment analysis scores using NLP on tweets related to stocks to predic
 
 Kyle Johnson
 
-This model has been migrated to the Amazon Web Services and now executes daily.  Daily model outputs can be found at https://twitter.com/kylejohnson1678
+This model has been migrated to Amazon Web Services and now executes daily.  Daily model outputs can be found at https://twitter.com/kylejohnson1678
 
 *** TWEETS ARE NOT INVESTMENT ADVICE! DO NOT TRADE BASED ON THESE RECOMMENDATIONS! The model is a proof of concept and has not been optimized for live trading. These tweets are merely to show end to end functionality of the model. ***
 
